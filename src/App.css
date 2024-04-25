@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3rem 5rem;
+  border-radius: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 3rem;
+}
+
+button {
+  padding: 2rem 3rem;
+  width: 6rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+.default{
+  background-color: grey;
+}
+.default:hover{
+  background-color: black;
+}
+
+.red{
+  background-color: red;
+}
+.red:hover{
+  background-color: darkred;
+}
+
+.yellow{
+  background-color: yellow;
+  color: black;
+}
+.yellow:hover{
+  background-color: darkgoldenrod;
+}
+
+.green{
+  background-color: green;
+} 
+.green:hover{
+  background-color: darkgreen;
+}
+
+.blue{
+  background-color: blue;
+}
+.blue:hover{
+  background-color: darkblue;
+}
+
+.black{
+  background-color: black;
+}
+.black:hover{
+  background-color: grey;
+}
+
+.white{
+  background-color: white;
+  color: black;
+}
+
+.white:hover{
+  background-color: lightgrey;
+}
+
+.purple{
+  background-color: purple;
+}
+
+.purple:hover{
+  background-color: rgb(75, 1, 75);
+}
